@@ -7,7 +7,7 @@ This repository contains a visualizer for the flood fill algorithm using breadth
 The visualizer fills a grid on the screen with a color, using the flood fill algorithm. The algorithm is implemented using BFS. Each time a cell is filled, a sound is played.
 
 ## Features
-
+- **Left arrow, right arrow keys**: change color
 - **Mouse Left Key**: Colors a single cell.
 - **Mouse Right Key**: Clears a single cell.
 - **'C' Key**: Clears the screen.
