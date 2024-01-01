@@ -14,6 +14,10 @@ The visualizer fills a grid on the screen with a color, using the flood fill alg
 - **'F' Key**: Starts the flood fill.
 - **BFS**: The flood fill algorithm is implemented using Breadth-First Search (BFS).
 
+## Requirements
+- **Python**
+- **Pygame**
+
 ## Installation
 
 To run the visualizer, follow these steps:
