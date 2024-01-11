@@ -65,11 +65,11 @@ class Visualizer:
       self.sound.play()
       if x > 0:
         stack.append((x-1, y))
-      if x < self.GRID_COLS:
+      if x < self.GRID_COLS - 1:
         stack.append((x+1, y))
       if y > 0:
         stack.append((x, y-1))
-      if y < self.GRID_ROWS:
+      if y < self.GRID_ROWS - 1:
         stack.append((x, y+1))
       yield self.screen_grid.copy()
 
