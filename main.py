@@ -34,7 +34,8 @@ class Visualizer:
         pygame.draw.rect(
           self.screen, 
           self.screen_grid[row][col],
-          (row * self.CELL_SIZE, col * self.CELL_SIZE, self.CELL_SIZE, self.CELL_SIZE),
+          (row * self.CELL_SIZE, col * self.CELL_SIZE, self.CELL_SIZE, self.CELL_SIZE), 
+          1, 10
         )
 
   def clear_grid(self):
