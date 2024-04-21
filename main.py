@@ -60,6 +60,8 @@ class Visualizer:
     stack = [start_pos]
     while len(stack) > 0:
       x, y = stack.pop(0)
+      if self.current_color == self.screen_grid[x][y]:
+        continue
       if self.screen_grid[x][y] != old_color:
         continue
       self.screen_grid[x][y] = self.current_color
